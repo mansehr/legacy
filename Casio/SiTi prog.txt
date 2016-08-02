@@ -1,0 +1,225 @@
+//Program CELSIUS
+"ANGE FARENHEIT"
+?->A
+A-32-A
+A/1.8->A #
+//End Program: CELSIUS
+
+//Program: SKRIV
+Lbl 0
+ClrText
+Locate 1,2,"---------------------"    	// 21 tecken
+Locate 1,3,"I        EN         I"
+Locate 1,4,"I       CHATT       I"
+Locate 1,5,"I    AV: ANDE_VEGA  I"
+Locate 1,6,"I                   I"
+Locate 1,7,"--------------------- #	// Vänta på inmatningstecken ('#') Ser inte ut så...
+ClrGraph
+ViewWindow 1,27,0,1,63,0
+1->I:0->z:0->W:1->s:1->T
+Lbl 1
+Getkey=47=>Return
+If Z>9 And Z<70
+Then Z->W
+0->Z
+Else If Z>70 And Z<7000
+Then Int (Z/100)->W
+Z-(W/100)->Z
+Else If Z>7000 And Z<700000
+Then Int (Z/10000)->W
+Z-(W/10000)->Z
+Else If Z>700000 And Z<70000000
+Then Int (Z/1000000)->W
+Z-(W/1000000)->Z
+Else If Z>70000000 And Z<7000000000
+Then Int (Z/100000000)->W
+Z-(W/100000000)->Z
+IfEnd
+IfEnd
+IfEnd
+IfEnd
+IfEnd
+W=10=>Text S,T," "
+W=11=>Text S,T,"A"
+W=12=>Text S,T,"B"
+W=13=>Text S,T,"C"
+W=14=>Text S,T,"D"
+W=15=>Text S,T,"E"
+W=16=>Text S,T,"F"
+W=17=>Text S,T,"G"
+W=18=>Text S,T,"H"
+W=19=>Text S,T,"I"
+W=20=>Text S,T,"J"
+W=21=>Text S,T,"K"
+W=22=>Text S,T,"L"
+W=23=>Text S,T,"M"
+W=24=>Text S,T,"N"
+W=25=>Text S,T,"O"
+W=26=>Text S,T,"P"
+W=27=>Text S,T,"Q"
+W=28=>Text S,T,"R"
+W=29=>Text S,T,"S"
+W=30=>Text S,T,"T"
+W=31=>Text S,T,"U"
+W=32=>Text S,T,"V"
+W=33=>Text S,T,"W"
+W=34=>Text S,T,"X"
+W=35=>Text S,T,"Y"
+W=36=>Text S,T,"Z"
+If W=50:Then S+6->S
+If Z=0
+Then Mat A[I,1]->Z
+I+I->I
+Z=0=>Stop
+IfEnd
+If T>120:Then 6+S->S
+2->T
+Else 5+T->T
+IfEnd
+If S>58
+Then 2->T:1->S
+While Getkey =\= 31
+WhileEnd
+Cls
+IfEnd
+Goto 1
+
+//End Program: SKRIV
+
+//Program: LAGRA
+ClrGraph:ViewWindow 1,127,0,1,63,0
+0->A:0->Z:1->I:10->S:1->T
+Text 2,20,"~~ SKRIV DIN TEXT ~~"
+Plot 9,10:Plot 80,10:Line
+While A=/=47
+Getkey->A
+If A=/=0
+Then If A=76:Then 11->Z:Text S,T,"A":IfEnd
+If A=66:Then 12->Z
+Text S,T,"B":IfEnd
+If A=56:Then 13->Z
+Text S,T,"C":IfEnd
+If A=46:Then 14->Z
+Text S,T,"D":IfEnd
+If A=36:Then 15->Z
+Text S,T,"E":IfEnd
+If A=26:Then 16->Z
+Text S,T,"F":IfEnd
+If A=75:Then 17->Z
+Text S,T,"G":IfEnd
+If A=65:Then 18->Z
+Text S,T,"H":IfEnd
+If A=55:Then 19->Z
+Text S,T,"I":IfEnd
+If A=45:Then 20->Z
+Text S,T,"J":IfEnd
+If A=35:Then 21->Z
+Text S,T,"K":IfEnd
+If A=25:Then 22->Z
+Text S,T,"L":IfEnd
+If A=74:Then 23->Z
+Text S,T,"M":IfEnd
+If A=64:Then 24->Z
+Text S,T,"N":IfEnd
+If A=54:Then 25->Z
+Text S,T,"O":IfEnd
+If A=73:Then 26->Z
+Text S,T,"P":IfEnd
+If A=63:Then 27->Z
+Text S,T,"Q":IfEnd
+If A=53:Then 28->Z
+Text S,T,"R":IfEnd
+If A=43:Then 29->Z
+Text S,T,"S":IfEnd
+If A=33:Then 30->Z
+Text S,T,"T":IfEnd
+If A=72:Then 31->Z
+Text S,T,"U":IfEnd
+If A=62:Then 32->Z
+Text S,T,"V":IfEnd
+If A=52:Then 33->Z
+Text S,T,"W":IfEnd
+If A=42:Then 34->Z
+Text S,T,"X":IfEnd
+If A=32:Then 35->Z
+Text S,T,"Y":IfEnd
+If A=71:Then 36->Z
+Text S,T,"Z":IfEnd
+If A=61:Then 10->Z
+Text S,T,"->":IfEnd
+If A=31:Then 50->Z
+0->T:S+6->S
+IfEnd
+Lbl U
+If Z>9 And 70>Z
+Then If Mat A[I,1]<1000000000
+Then (Mat A[I,1]*100)+Z->Mat A[I,1]
+Else
+I+1->I
+Goto U
+IfEnd
+0->Z:T+5->T
+IfEnd
+If T>120
+The 1->T
+S+6->S
+IfEnd
+If S>55
+Then ClrText
+10->S:2->T
+IfEnd
+IfEnd 
+WhileEnd
+Return
+
+//End Program: LAGRA
+
+//Program: GUBBE
+ClrGraph:ViewWindow 1,127,0,1,63,0
+PLot 1,63:PLot 1,1:Line
+PLot 127,1:PLot 127,63:Line
+PLot 1,63:PLot 127,63:Line
+PLot 1,1:PLot 127,1:Line
+Circle 60,32,28
+Circle 50,40,2
+Circle 70,40,2
+Circle 60,20,6
+PLot 60,37:PLot 55,30:Line
+PLot 60,37:PLot 65,30:Line
+
+//End Program: GUBBE
+
+//Program: RENS
+Locate 1,1,"*********************"
+Locate 1,2,"*                   *"
+Locate 1,3,"*                   *"
+Locate 1,4,"*  MEMORY CLEARED!  *"
+Locate 1,5,"*                   *"
+Locate 1,6,"*********************"
+Locate 1,7,"   PRESS [MENU] KEY"
+While GetKeyNot 48
+WhileEnd
+
+//End Program: RENS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
