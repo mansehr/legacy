@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Snake()
+comment1.target=void\ start()
+comment10.params=obj
+comment10.target=void\ newRandomPosition(GridObject)
+comment11.params=argv
+comment11.target=void\ main(String[])
+comment12.params=arg
+comment12.target=void\ quit(String)
+comment13.target=void\ loadHighScore()
+comment14.target=void\ saveHighScore()
+comment15.target=int\ addHighScore()
+comment2.target=void\ startThread()
+comment3.target=void\ run()
+comment4.target=void\ stop()
+comment5.target=void\ init()
+comment6.target=boolean\ loadImages()
+comment7.target=void\ reset()
+comment8.target=void\ testKrash()
+comment9.params=initX\ initY
+comment9.target=void\ moveHead(int,\ int)
+numComments=16

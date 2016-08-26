@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ color
+comment0.target=Platform(int,\ int,\ int,\ int,\ Color)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Platform\n\n
+comment1.params=steps
+comment1.target=void\ moveLeft(int)
+comment2.params=steps
+comment2.target=void\ moveRight(int)
+comment3.params=g
+comment3.target=void\ draw(Graphics)
+numComments=4

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ dX\ dY\ color
+comment0.target=Ball(int,\ int,\ int,\ int,\ float,\ float,\ Color)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Ball\n\n
+comment1.params=x\ y\ width\ height
+comment1.target=Ball(int,\ int,\ int,\ int)
+comment1.text=\nConstructor\ for\ objects\ of\ class\ Ball\nsets\ dy\ &\ dx\ to\ zero(0)\n\n
+comment2.params=init
+comment2.target=void\ setDY(float)
+comment3.params=init
+comment3.target=void\ setDX(float)
+comment4.params=newSpeed
+comment4.target=void\ setSpeed(float)
+comment5.target=float\ getDY()
+comment6.target=float\ getDX()
+comment7.target=float\ getSpeed()
+comment8.target=void\ moveBall()
+comment9.params=g
+comment9.target=void\ draw(Graphics)
+numComments=10

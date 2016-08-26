@@ -1,0 +1,500 @@
+[Spar1]
+Du ville ha spar ett eller hur säg det nu erkännMöh;Möh
+[/Spar1]
+Hahaha inte här inte....
+
+0
+beginTest = false
+copyString = false
+endTest = false
+
+1
+beginTest = true
+copyString = false
+endTest = false
+
+2
+beginTest = true
+copyString = false
+endTest = false
+
+3
+beginTest = true
+copyString = false
+endTest = false
+
+4
+beginTest = true
+copyString = false
+endTest = false
+
+5
+beginTest = true
+copyString = false
+endTest = false
+
+6
+beginTest = true
+copyString = false
+endTest = false
+
+7
+beginTest = false
+copyString = true
+endTest = false
+
+8
+beginTest = false
+copyString = true
+endTest = false
+
+9
+beginTest = false
+copyString = true
+endTest = false
+
+10
+beginTest = false
+copyString = true
+endTest = false
+
+11
+beginTest = false
+copyString = true
+endTest = false
+
+12
+beginTest = false
+copyString = true
+endTest = false
+
+13
+beginTest = false
+copyString = true
+endTest = false
+
+14
+beginTest = false
+copyString = true
+endTest = false
+
+15
+beginTest = false
+copyString = true
+endTest = false
+
+16
+beginTest = false
+copyString = true
+endTest = false
+
+17
+beginTest = false
+copyString = true
+endTest = false
+
+18
+beginTest = false
+copyString = true
+endTest = false
+
+19
+beginTest = false
+copyString = true
+endTest = false
+
+20
+beginTest = false
+copyString = true
+endTest = false
+
+21
+beginTest = false
+copyString = true
+endTest = false
+
+22
+beginTest = false
+copyString = true
+endTest = false
+
+23
+beginTest = false
+copyString = true
+endTest = false
+
+24
+beginTest = false
+copyString = true
+endTest = false
+
+25
+beginTest = false
+copyString = true
+endTest = false
+
+26
+beginTest = false
+copyString = true
+endTest = false
+
+27
+beginTest = false
+copyString = true
+endTest = false
+
+28
+beginTest = false
+copyString = true
+endTest = false
+
+29
+beginTest = false
+copyString = true
+endTest = false
+
+30
+beginTest = false
+copyString = true
+endTest = false
+
+31
+beginTest = false
+copyString = true
+endTest = false
+
+32
+beginTest = false
+copyString = true
+endTest = false
+
+33
+beginTest = false
+copyString = true
+endTest = false
+
+34
+beginTest = false
+copyString = true
+endTest = false
+
+35
+beginTest = false
+copyString = true
+endTest = false
+
+36
+beginTest = false
+copyString = true
+endTest = false
+
+37
+beginTest = false
+copyString = true
+endTest = false
+
+38
+beginTest = false
+copyString = true
+endTest = false
+
+39
+beginTest = false
+copyString = true
+endTest = false
+
+40
+beginTest = false
+copyString = true
+endTest = false
+
+41
+beginTest = false
+copyString = true
+endTest = false
+
+42
+beginTest = false
+copyString = true
+endTest = false
+
+43
+beginTest = false
+copyString = true
+endTest = false
+
+44
+beginTest = false
+copyString = true
+endTest = false
+
+45
+beginTest = false
+copyString = true
+endTest = false
+
+46
+beginTest = false
+copyString = true
+endTest = false
+
+47
+beginTest = false
+copyString = true
+endTest = false
+
+48
+beginTest = false
+copyString = true
+endTest = false
+
+49
+beginTest = false
+copyString = true
+endTest = false
+
+50
+beginTest = false
+copyString = true
+endTest = false
+
+51
+beginTest = false
+copyString = true
+endTest = false
+
+52
+beginTest = false
+copyString = true
+endTest = false
+
+53
+beginTest = false
+copyString = true
+endTest = false
+
+54
+beginTest = false
+copyString = true
+endTest = false
+
+55
+beginTest = false
+copyString = true
+endTest = false
+
+56
+beginTest = false
+copyString = true
+endTest = false
+
+57
+beginTest = false
+copyString = true
+endTest = false
+
+58
+beginTest = false
+copyString = true
+endTest = false
+
+59
+beginTest = false
+copyString = true
+endTest = false
+
+60
+beginTest = false
+copyString = true
+endTest = false
+
+61
+beginTest = false
+copyString = true
+endTest = false
+
+62
+beginTest = false
+copyString = true
+endTest = false
+
+63
+beginTest = false
+copyString = true
+endTest = false
+
+64
+beginTest = false
+copyString = true
+endTest = false
+
+65
+beginTest = false
+copyString = false
+endTest = true
+
+66
+beginTest = false
+copyString = false
+endTest = true
+
+67
+beginTest = false
+copyString = false
+endTest = true
+
+68
+beginTest = false
+copyString = false
+endTest = true
+
+69
+beginTest = false
+copyString = false
+endTest = true
+
+70
+beginTest = false
+copyString = false
+endTest = true
+
+71
+beginTest = false
+copyString = false
+endTest = true
+
+72
+beginTest = false
+copyString = false
+endTest = false
+
+73
+beginTest = false
+copyString = false
+endTest = false
+
+74
+beginTest = false
+copyString = false
+endTest = false
+
+75
+beginTest = false
+copyString = false
+endTest = false
+
+76
+beginTest = false
+copyString = false
+endTest = false
+
+77
+beginTest = false
+copyString = false
+endTest = false
+
+78
+beginTest = false
+copyString = false
+endTest = false
+
+79
+beginTest = false
+copyString = false
+endTest = false
+
+80
+beginTest = false
+copyString = false
+endTest = false
+
+81
+beginTest = false
+copyString = false
+endTest = false
+
+82
+beginTest = false
+copyString = false
+endTest = false
+
+83
+beginTest = false
+copyString = false
+endTest = false
+
+84
+beginTest = false
+copyString = false
+endTest = false
+
+85
+beginTest = false
+copyString = false
+endTest = false
+
+86
+beginTest = false
+copyString = false
+endTest = false
+
+87
+beginTest = false
+copyString = false
+endTest = false
+
+88
+beginTest = false
+copyString = false
+endTest = false
+
+89
+beginTest = false
+copyString = false
+endTest = false
+
+90
+beginTest = false
+copyString = false
+endTest = false
+
+91
+beginTest = false
+copyString = false
+endTest = false
+
+92
+beginTest = false
+copyString = false
+endTest = false
+
+93
+beginTest = false
+copyString = false
+endTest = false
+
+94
+beginTest = false
+copyString = false
+endTest = false
+
+95
+beginTest = false
+copyString = false
+endTest = false
+
+96
+beginTest = false
+copyString = false
+endTest = false
+
+97
+beginTest = false
+copyString = false
+endTest = false
+
+
+
+Du ville ha spar ett eller hur säg det nu erkännMöh;Möh
+
+57

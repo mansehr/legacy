@@ -1,0 +1,8 @@
+<applet code=Clock2.class width=275 height=30>
+<param name="FontFamily" value="Courier">
+<param name="FontSize" value="20">
+<param name="FontWeight" value="bold">
+<param name="DateFmt" value="%c">
+<param name="BGCol" value="ffffff">
+<param name="FGCol" value="000000">
+</applet>

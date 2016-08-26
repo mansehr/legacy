@@ -1,0 +1,4 @@
+2009-05-04 16:45:23	AP_Init : parseFile()
+Could not read source file: C:\Users\Andreas\KTH\workspace\AP\..\conf.xml (Det går inte att hitta filen)
+2009-05-04 16:48:30	AP_CMS : run()
+Failed to connect to the CMS using Socket socket = new Socket(/192.168.0.16,80);

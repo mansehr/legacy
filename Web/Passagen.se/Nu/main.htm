@@ -1,0 +1,118 @@
+<HTML>
+ <HEAD>
+  <LINK REL=stylesheet HREF="Stil.css" TYPE="text/css">
+
+
+  <SCRIPT LANGUAGE="JavaScript">
+  <!--
+	function visa_text(id)
+	{
+		document.all[id].style.visibility="visible";
+	}
+
+	function bort_text(id)
+	{
+		document.all[id].style.visibility="hidden";
+	}
+
+	function bort_alla()
+	{
+		document.all.style.visibility="hidden";
+	}
+
+    function Datum()
+    {
+	    document.write(document.lastModified);
+    }
+  //-->
+  </SCRIPT>
+ </HEAD>
+
+ <BODY>
+ <!--Meny Popup-->
+ <div class="menyPopup" ID=menypopup2 style="width: 85px; left: 66px;" onMouseOver="visa_text('menypopup2')" onMouseOut="bort_text('menypopup2')">
+ 	    <a href="bandy.html"      target="main"  onClick="parent.frames[0].set_bild('Bandy')"  onMouseOver="visa_text('bandy')" onMouseOut="bort_text('bandy')" >Bandy</a>
+ 	<br><a href="bor.html"      target="main"  onClick="parent.frames[0].set_bild('bor')"  onMouseOver="visa_text('bor')" onMouseOut="bort_text('bor')" >Vart Bor Jag??</a>
+ 	<br><a href="minatankar.html"      target="main"  onClick="parent.frames[0].set_bild('minatankar')"  onMouseOver="visa_text('minatankar')" onMouseOut="bort_text('minatankar')" >Mina Tankar</a>
+ </div>
+ <div class="menyPopup" ID=menypopup3 style="width: 50px; left: 130px;" onMouseOver="visa_text('menypopup3')" onMouseOut="bort_text('menypopup3')">
+	    <a href="vitsar.html"      target="main"  onClick="parent.frames[0].set_bild('vitsar')"  onMouseOver="visa_text('vitsar')" onMouseOut="bort_text('vitsar')" >Vitsar</a>
+	<br><a href="bilder.html"      target="main"  onClick="parent.frames[0].set_bild('bilder')"  onMouseOver="visa_text('bilder')" onMouseOut="bort_text('bilder')" >Bilder</a>
+	<br><a href="snuskskamt.html"      target="main"  onClick="parent.frames[0].set_bild('snuskskamt')"  onMouseOver="visa_text('snuskskamt')" onMouseOut="bort_text('snuskskamt')" >Skämt</a>
+	<br><a href="humorlankar.html"      target="main"  onClick="parent.frames[0].set_bild('humorlankar')"  onMouseOver="visa_text('humorlankar')" onMouseOut="bort_text('humorlankar')" >Länkar</a>
+ </div>
+ <div class="menyPopup" ID=menypopup4 style="width: 50px; left: 194px;" onMouseOver="visa_text('menypopup4')" onMouseOut="bort_text('menypopup4')">
+       <a href="prog.html"  target="main"  onClick="parent.frames[0].set_bild('Prog')"  onMouseOver="visa_text('c')"  onMouseOut="bort_text('c')"  >C++</a>
+   <br><a href="prog.html"  target="main"  onClick="parent.frames[0].set_bild('Prog')"  onMouseOver="visa_text('java')"  onMouseOut="bort_text('java')"  >Java</a>
+   <br><a href="prog.html"  target="main"  onClick="parent.frames[0].set_bild('Prog')"  onMouseOver="visa_text('basic')"  onMouseOut="bort_text('basic')"  >Basic</a>
+   <br><a href="prog.html"  target="main"  onClick="parent.frames[0].set_bild('Prog')"  onMouseOver="visa_text('html')"  onMouseOut="bort_text('html')"  >HTML</a>
+   <br><a href="prog.html"  target="main"  onClick="parent.frames[0].set_bild('Prog')"  onMouseOver="visa_text('casio')"  onMouseOut="bort_text('casio')"  >Casio</a>
+  </a>
+ </div>
+  <!--Menyn-->
+   <div class="menyRam">
+	  <!--Info rutan-->
+      <div class="menyBoxtextRam">
+		<!--Olika texter till menyn-->
+        <div  class="menyBoxText"   ID=main>  Första sidan.  </div>
+        <div  class="menyBoxText"   ID=omMig> Här hittar du lite intresanta saker om mig                 </div>
+        <div  class="menyBoxText"   ID=nv1b>  NV1B:s oficiella hemmsida. Vi går Naturvetenskaps linjen.  </div>
+        <div  class="menyBoxText"   ID=humor> Genom åren har jag lyckats sammla på mig en hel del roligt. Minst ett skratt garanteras...</div>
+        <div  class="menyBoxText"   ID=prog>  Jag programmerar i de flesta olika språk....               </div>
+
+		<div  class="menyBoxText"   ID=bandy> Jag spelar bandy i GT/76. Riktig bandy, på is.!!!          </div>
+		<div  class="menyBoxText"   ID=minatankar> Jag är en person som går och funderar lite då och då. Här har jag sammlat mina tankar.</div>
+		<div  class="menyBoxText"   ID=bor> Det är i Haninge kommun som jag bor. Den ligger inte långt ifrån Stockholm...</div>
+
+        <div  class="menyBoxText"   ID=vitsar> Här är lite roliga vitsar som förhoppningsvis uppskattas av alla...</div>
+        <div  class="menyBoxText"   ID=bilder> De flesta bilder här har min pappa fått från nån polare på jobbet. Väldigt roliga.    </div>
+        <div  class="menyBoxText"   ID=snuskskamt> Ojdå!! Vad är nu detta? Ta det lugnt. De flesta är rätt snälla...</div>
+		<div  class="menyBoxText"   ID=humorlankar> Här sammlar jag länkar om humor. Ni får gärna komma med egna förslag...</div>
+
+        <div class="menyBoxText"   ID=c>    Lite C++ programmering, Program jag gjort och skolor jag rekomenderar eller skrivit själv</div>
+        <div class="menyBoxText"   ID=java> Java! Har inte gjort något avancerat där men vet en hel del...</div>
+        <div class="menyBoxText"   ID=basic>Det simplaste programeringspråket som finns tror jag</div>
+        <div class="menyBoxText"   ID=html> Ja vad trodde du hur skulle jag annars gjort det här.</div>
+        <div class="menyBoxText"   ID=casio>Jag har en CASIO miniräknare som jag brukar spela på ibland...</div>
+      </div>
+
+	 <!--Länkarna-->
+     <div class="menyLankarna">
+        <div class="menyLank" style="width: 48px;left: 0px;">  <a href="main.htm"       target="main"  onClick="parent.frames[0].set_bild('Main')"  onMouseOver="bort_text('menypopup2');bort_text('menypopup3');bort_text('menypopup4');visa_text('main');"  onMouseOut="bort_text('main')"  ><!--<img src="bilder/hem.gif" border=0>-->Hem</a></div>
+        <div class="menyLank" style="width: 60px;left: 52px;"> <a href="OmMig.htm"      target="main"  onClick="parent.frames[0].set_bild('omMig')" onMouseOver="bort_text('menypopup2');bort_text('menypopup3');bort_text('menypopup4');visa_text('omMig');visa_text('menypopup2')" onMouseOut="bort_text('omMig')" ><!--<img src="bilder/head.gif" border=0>-->Om mig</a></div>
+        <div class="menyLank" style="width: 60px;left: 116px;"><a href="humor.htm"      target="main"  onClick="parent.frames[0].set_bild('Humor')" onMouseOver="bort_text('menypopup2');bort_text('menypopup3');bort_text('menypopup4');visa_text('humor');visa_text('menypopup3')" onMouseOut="bort_text('humor')"><!--<img src="bilder/humor.gif" border=0>-->Humor</a></div>
+        <div class="menyLank" style="width: 98px;left: 180px;"><a href="prog.htm"       target="main"  onClick="parent.frames[0].set_bild('Prog')"  onMouseOver="bort_text('menypopup2');bort_text('menypopup3');bort_text('menypopup4');visa_text('prog');visa_text('menypopup4')"  onMouseOut="bort_text('prog')"  ><!--<img src="bilder/dator.gif" border=0>-->Programmering</a></div>
+        <div class="menyLank" style="width: 54px;left: 282px;"><a href="nv1b/index.htm" target="_top"  onClick="parent.frames[0].set_bild('Main')"  onMouseOver="bort_text('menypopup2');bort_text('menypopup3');bort_text('menypopup4');visa_text('nv1b')"  onMouseOut="bort_text('nv1b')"  ><!--<img src="bilder/nv1b.gif" border=0>-->NV1b</a></div>
+     </div>
+  </div>
+
+
+                <!--Texten-->
+    <div class="maintext">
+    	<!--<div style="background-image:url(bilder/linje.gif); background-repeat: repeat-x; left: 20px; width: 600px;"> </div>-->
+          Du har surfat in på <b>Ande_Vega</b>:s hemmsida. Här kan du se vem jag är och vad jag brukar hitta på. Jag har även lagt upp en humor del som troligtvis
+          kommer att växa rätt fort. Man kan ju hitta det mesta skoj på internet numera....
+
+      <br><br>
+          Jag brukar programmera ganska ofta. Det är kul. Därför har jag lagt upp en programerings del också.
+      <br><br>
+          Det är jag som har gjort min klass hemsida. Den blev kanske lite för privat med inloggning och allt...
+          Men den är ändå värd en litet klick. Där kan ni se vilka vi är och vad vi brukar ha för oss.
+
+      <br><br>
+          Nammnet <b> Ande_Vega</b> fick jag när jag registrerade mig på hotmail för många år sedan. Ande är ett smeknam för Andreas
+          och jag bor i Vega som ligger i Haninge utanför Stockholm. Jag har fortfarande kvar addressen på hotmail.
+
+      <br><br>
+          <center>///<b>Ande_Vega</b></center>
+
+
+      <br><br><a href="mailto:ande_vega@hotmail.com">Maila mig</a> om ni har några frågor så jag kan hjälpa er.
+      <br><br><br><br>
+
+        <script language="JavaScript">
+           document.write(" Senast uppdaterad: " + document.lastModified );
+        </script>
+     </div>
+ </BODY>
+</HTML>

@@ -1,0 +1,25 @@
+Att fixa:
+* AP_CMS Testa hantering av response codes
+* AP_Main Menyn: alternativ för att tvinga fram cms_update
+
+Fixat:
+* AP_CMS - hantera response codes från cms
+* ALLA Används våra exceptions? - Japp
+* FELHANTERING Testa felhantering i AP_init - Följande testat och hanteras:
+	- conf.xml finns inte, stäng av programmet
+	- felaktig cms-adress (det går inte att öppna en socket till adressen), hoppa över send/recieve, vänta TIMER, försök igen
+	- Inget svar från cms (exempelvis om adressen är fel, men anslutningen lycaks ändå) felet loggas
+	- felaktig xml struktur för conf, loggas och sedan stängs programmet av
+	- felaktig IP i conf, loggas och sedan stängs programmet av
+	- felaktig status i conf, loggas och sedan stängs programmet av
+	- saknas info om en cc i conf, loggas och sedan stängs programmet av
+	- port i cc i conf är ej ett nummer, loggas och sedan stängs programmet av
+* FELHANTERING Vad göra om det blir (allvarligt) fel i AP_CMS 
+	- AP_CMS loggar felen och försöker ansluta igen enligt perioden
+* ALLA Globalisera DEBUG boolean.
+* AP_ComHandler fixa felhanteringen
+* ALLA Rensa på debugmeddelanden som inte är relevanta för testning av funktioner. (dvs inte bara behövdes för att få programmet att göra som vi vill.)
+* AP_ComHandler Läsa in content length för att veta storlek på content
+* AP_Main Göra ett interface? MENY/ALTERNATIV: Avsluta, antal trådar, starta om, status?, getloggs
+* FELHANTERING Vad göra om det blir (allvarligt) fel i AP_Commhandler
+* AP_ComHandler kommentarer

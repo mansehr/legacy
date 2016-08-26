@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<AP_config>
+	<AP_ID>AP1</AP_ID> 
+	<AP_CMSadr>192.168.0.16</AP_CMSadr>
+	<AP_ListCC>
+		<CC>
+			<Type>sms</Type>
+			<ID>SMS1</ID>
+			<Status>online</Status>
+			<Port>85</Port>
+		</CC>
+		<CC>
+			<Type>ib</Type>
+			<ID>IB1</ID>
+			<Status>online</Status>
+			<Port>86</Port>
+		</CC>
+		<CC>
+			<Type>wifi</Type>
+			<ID>WF1</ID>
+			<Status>inactive</Status>
+			<Port>87</Port>
+		</CC>
+		<CC>
+			<Type>bt</Type>
+			<ID>BT1</ID>
+			<Status>online</Status>
+			<Port>88</Port>
+		</CC>
+	</AP_ListCC>
+</AP_config>

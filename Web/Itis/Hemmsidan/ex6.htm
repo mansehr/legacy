@@ -1,0 +1,40 @@
+<HTML>
+
+<HEAD>
+<TITLE>ex6 - dhmtl</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+.bild {position: absolute; top: 100px; left: 100px; width: 116px; height: 121px;}
+
+#popup {position: relative; top: -100px; left: 50px; width: 230px; font-size: 11pt; color: white; padding: 15px; background-color:#002255; visibility: hidden; font-family: verdana; }
+-->
+
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function visa_text(id)  
+{   
+document.all[id].style.visibility="visible";
+}
+
+function bort_text(id)  
+{  
+document.all[id].style.visibility="hidden"; 
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY LINK=#DD3300 VLINK=#DD3300>
+
+<DIV CLASS=bild onMouseOver="visa_text('popup')" onMouseOut="bort_text('popup')">
+<img src="hej.gif" width="116" height="121">
+<DIV ID=popup>När muspekaren förs över bilden (ögat) visas den här textrutan. 
+Det går bra att ha <A HREF="enlank.html">länkar</A> och bilder med mera i den här rutan.</DIV> 
+</DIV>
+
+
+</BODY>
+</HTML>

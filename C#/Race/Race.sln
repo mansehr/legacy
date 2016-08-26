@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race", "Race.csproj", "{0D0D964B-60D2-4E20-BB75-7C5A2C30ADEC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0D0D964B-60D2-4E20-BB75-7C5A2C30ADEC}.Debug.ActiveCfg = Debug|.NET
+		{0D0D964B-60D2-4E20-BB75-7C5A2C30ADEC}.Debug.Build.0 = Debug|.NET
+		{0D0D964B-60D2-4E20-BB75-7C5A2C30ADEC}.Release.ActiveCfg = Release|.NET
+		{0D0D964B-60D2-4E20-BB75-7C5A2C30ADEC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

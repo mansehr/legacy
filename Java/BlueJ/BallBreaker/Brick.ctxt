@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ hardnes
+comment0.target=Brick(int,\ int,\ int,\ int,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Brick\n\n
+comment1.params=init
+comment1.target=void\ setHardnes(int)
+comment2.target=void\ hited()
+comment3.params=g
+comment3.target=void\ draw(Graphics)
+numComments=4

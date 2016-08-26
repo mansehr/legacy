@@ -1,0 +1,2 @@
+<applet code="UFO_Attack.class" width=200 height=400> 
+</applet>

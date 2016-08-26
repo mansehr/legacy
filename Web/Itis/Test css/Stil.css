@@ -1,0 +1,12 @@
+body {margin:10}
+
+.Rubrik { font-size: 40pt; color:rgb(66, 15, 219); font-family: arial, veranda; 
+          text-align: center; font-weight:bold; text-decoration: underline}
+
+.Text { font-size:23pt; color black; font-family:times new roman, veranda, arial }
+.Text {text-indent: 20pt; text-transform: normal; letter-spacing: 2px}
+
+.ram {border-style:double; border-width:medium; border-color:green; padding: 20px 30px 20px 30px }
+.ram1 {margin:30px 300px 30px 300px; border-style:double; border-width:medium; border-color:rgb(33,202,9); padding: 20px 30px 20px 30px }
+
+

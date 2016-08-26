@@ -1,0 +1,75 @@
+<HTML>
+ <HEAD>
+ </HEAD>
+
+<STYLE type ="text/css">
+  <!--
+   body { margin:20px; margin-top:100px}
+
+   .bild { background: url(meny.gif) repeat top left; width: 130px; height: 80px; color: white; 
+          font-size: 18pt; font-family: times new roman, veranda, arial; 
+          text-decoration: underline; text-align: center; }
+
+   .ram { border-style: solid; border-width: thin;  border-color: blue; width: 130px }
+
+   .text { font-size: 16pt; text-align: center; font-family: times new roman, veranda, arial; }
+   
+   .boxtext {padding:2px; position: absolute; font-size: 8pt; font-family: times new roman, veranda, arial; 
+             visibility: hidden}
+
+   .temptext { padding: 4px; font-size: 8pt; font-family: times new roman, veranda, arial; text-align: center; }
+
+
+     a { text-decoration: none; }
+     a:link { color: "blue"; }
+     a:active { color: "green"; text-decoration: underline; }
+     a:visited { color: "blue"; }
+     a:hover { color: "black"; text-decoration: underline }
+     h{ font-size: 1px; }
+
+  -->
+ </STYLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function visa_text(id)  
+{   
+document.all[id].style.visibility="visible";
+}
+
+function bort_text(id)  
+{  
+document.all[id].style.visibility="hidden"; 
+}
+
+//-->
+</SCRIPT>
+
+ <BODY>
+  <div class=ram>
+   <div style="height: 50">
+
+    <div class="boxtext" ID="omMig">Här hittar du lite intresanta saker om mig</div>
+    <div class="boxtext" ID="main">Första sidan. Där det står "Välkommen". Trevligt va??</div>
+    <div class="boxtext" ID="klassen">En sida för min kära klass. NV1b på FredrikaBremer gymnasiet i Haninge.</div>
+   </div>
+  </div>
+
+  <div class=ram>
+   <div class="text">
+    <br><a href="main.html" target="main" onMouseOver="visa_text('main')" onMouseOut="bort_text('main')">Main</a><br>
+    <br><a href="OmMig.html" target="main" onMouseOver="visa_text('omMig')" onMouseOut="bort_text('omMig')">Om mig</a><br>
+    <br><a href="Nv1b\Index.html" target=etc onmouseover="visa_text('klassen')" onmouseout="bort_text('klassen')">NV1b</a><br>
+    <br><br>
+    <div class="boxtext">
+      Här kommer det snart komma fler länkar. "Den som vänta på nått gott 
+      väntar aldrig för länge". <br><br>(Ett bra ordspråk)
+    </div>
+   </div>
+  </div>
+  <div class="bild">
+   <br>Meny
+  </div>
+
+ </BODY>
+</HTML>

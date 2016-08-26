@@ -1,0 +1,53 @@
+<HTML>
+ <HEAD>
+  <LINK REL=stylesheet HREF="menu.css" TYPE="text/css">
+<base target="main">
+ </HEAD>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function visa_text(id)
+{
+document.all[id].style.visibility="visible";
+}
+
+function bort_text(id)
+{
+document.all[id].style.visibility="hidden";
+}
+
+//-->
+</SCRIPT>
+ <BODY bgcolor="#EEEEFF">
+
+	     		<!--Menyn-->
+
+             <!-- Den tjocka ramen-->
+  <div class="menu-ram">
+
+
+              <!--Lilla ramen-->
+      <div class="menu-ram2">
+             <!--Olika texter till menyn-->
+        <div  class="menu-boxtext"   ID=omMig>  Här hittar du lite intresanta saker om mig                 </div>
+        <div  class="menu-boxtext"   ID=main>   Första sidan. Där det står "Välkommen". Trevligt va??      </div>
+        <div  class="menu-boxtext"   ID=nv1b>   NV1B:s oficiella hemmsida. Vi går Naturvetenskaps linjen.  </div>
+        <div  class="menu-boxtext"   ID=bandy>  Jag spelar bandy i GT/76. Riktig bandy, på is.!!!          </div>
+        <div  class="menu-boxtext"   ID=prog>   Jag programmerar i de flesta olika språk....               </div>
+      </div>
+
+
+               <!--Länkarna-->
+     <div class="menu-lank">
+        <br><a href="main.html"     target="main"  onClick="parent.frames[0].set_bild(1)"  onMouseOver="visa_text('main')"  onMouseOut="bort_text('main')"  >Main</a>          <br>
+        <br><a href="OmMig.html"    target="main"  onClick="parent.frames[0].set_bild(2)"  onMouseOver="visa_text('omMig')" onMouseOut="bort_text('omMig')" >Om mig</a>        <br>
+        <br><a href="bandy.html"     target="main"  onClick="parent.frames[0].set_bild(3)"  onMouseOver="visa_text('bandy')" onMouseOut="bort_text('bandy')" >Bandy</a>         <br>
+        <br><a href="prog.html"     target="main"  onClick="parent.frames[0].set_bild(4)"  onMouseOver="visa_text('prog')"  onMouseOut="bort_text('prog')"  >Programmering</a> <br>
+        <br><a href="nv1b/index.html" target="_top"  onClick="parent.frames[0].set_bild(1)"  onMouseOver="visa_text('nv1b')"  onMouseOut="bort_text('nv1b')"  >NV1b</a>          <br>
+        <br>
+     </div>
+
+  </div>
+ </BODY>
+</HTML>

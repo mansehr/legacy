@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<AP_config>
+	<AP_ID>MattiasAP</AP_ID> 
+	<AP_CMSadr>130.237.5.235</AP_CMSadr>
+	<AP_ListCC>
+		<CC>
+			<Type>ib</Type>
+			<ID>MattiasAP_IB</ID>
+			<Status>online</Status>
+			<Port>86</Port>
+		</CC>
+		<CC>
+			<Type>sms</Type>
+			<ID>MattiasAP_SMS</ID>
+			<Status>online</Status>
+			<Port>85</Port>
+		</CC>
+		<CC>
+			<Type>bt</Type>
+			<ID>MattiasAP_BT</ID>
+			<Status>online</Status>
+			<Port>87</Port>
+		</CC>
+		<CC>
+			<Type>ib_2</Type>
+			<ID>MattiasAP_IB2</ID>
+			<Status>inactive</Status>
+			<Port>88</Port>
+		</CC>
+	</AP_ListCC>
+</AP_config>

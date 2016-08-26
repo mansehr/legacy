@@ -1,0 +1,11 @@
+ti, 5 maj 2009 22:38:54Status: QUEUED
+MessageId:458322<?xml version="1.0" encoding="iso-8859-1"?><SMS><reciever>46732432516</reciever><sender>Andreas till D-Unit</sender><message>Hej alla i gruppen nu fungerar sms kk'n så nu kan ni sova gott om natten</message></SMS>to, 21 maj 2009 17:02:48Status: QUEUED
+MessageId:553975____New Message____-- Sender: 127.0.0.1HTTP/1.1  Destination: TommySMS1 Content-Length: 113 Connection: close Additional-Data: 46702781152abcdefghijklmnopqrstuvxyzåäöABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖ1234567890§´¨'-.,<½!"#¤%&/()=?`^*_:;>|~\}][{$£@€Status: QUEUED
+MessageId:553975-- Message sent to server.-- Response(code: 200, Message: null)to, 21 maj 2009 20:49:25Status: QUEUED
+MessageId:555340____New Message____-- Sender: 127.0.0.1HTTP/1.1 200 OK Additional-Data: 46702781152Meta: Alla teckenDestination: smsSenderContent-Length: 104Content-Type: application/octet-streamConnection: closeabcdefghijklmnopqrstuvxyz???ABCDEFGHIJKLMNOPQRSTUVXYZ???1234567890???'-.,<?!"#?%&/()=?`^*_:;>|~\}][{$?@?Status: QUEUED
+MessageId:555340-- Message sent to server.-- Response(code: 200, Message: null)to, 21 maj 2009 23:24:42Status: QUEUED
+MessageId:555923____New Message____-- Sender: 127.0.0.1HTTP/1.1 200 OK Additional-Data: 46702781152Meta: openDestination: smsSenderContent-Length: 82Content-Type: text/plainConnection: closeÖppetider:Mån - Fre: 07.00 - 18.30Lördag: 10.00 - 16.00Söndag: StängtStatus: QUEUED
+MessageId:555923-- Message sent to server.-- Response(code: 200, Message: null)
+to, 21 maj 2009 23:25:48Status: QUEUED
+MessageId:555925____New Message____-- Sender: 127.0.0.1HTTP/1.1 200 OK Additional-Data: 46702781152Meta: openDestination: smsSenderContent-Length: 82Content-Type: text/plainConnection: closeÖppetider:Mån - Fre: 07.00 - 18.30Lördag: 10.00 - 16.00Söndag: StängtStatus: QUEUED
+MessageId:555925-- Message sent to server.-- Response(code: 200, Message: null)

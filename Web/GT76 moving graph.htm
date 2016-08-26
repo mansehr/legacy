@@ -1,0 +1,27 @@
+<!-- Copyright Fredrik Nyström 2002 -->
+<html>
+<head>
+	<title>2002 / Moving Graph (Optimized for IE)</title>
+	<script language="javascript">
+		function init()
+                {
+                  u=256;
+                  r=25;
+                  m=t=45;
+                  o=y=0;
+                  c=Math.cos;
+                  s=Math.sin;
+                  n=-r;
+                  while(t--)
+                  {
+                  	document.all.booty.innerHTML += ('<b id=p'+t+' style="position:absolute">GT/76</b>');
+                  }
+
+                 setInterval("t=m;d=2*c(o*2);while(t--){v=t+o;g=n*v/r;j=eval('p'+t+'.style');p=s(2*v)/2*u*s(o+=.0005);x=n*c(v)+p*c(g);j.left=x*c(d)-y*s(d)+200;y=n*c(v)-p*s(g);j.top=y*c(d)+x*s(d)+200;f=u*s(t-100);j.color='rgb(0,0,255)'}",m);
+                }
+	</script>
+</head>
+<body onLoad="init()" bgcolor=#FFFF00>
+	<div id="booty" name="booty"  style="position:absolute; width:400px; height:400px; background-color: #FFFF00;"></div>
+</body>
+</html>

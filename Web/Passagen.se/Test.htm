@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Test</title>
+<LINK REL=stylesheet HREF="Stil.css" TYPE="text/css">
+</head>
+
+<body>
+
+<script LANGUAGE="JavaScript">
+
+imSRC = "Test.bmp";
+
+function box() { 
+ 
+document.kul.test.value = 'Hej då';
+
+}
+</script>
+
+     <!--Allting ligger inom den här ramen-->
+
+ <div class="mainframe">
+ 
+             <!--Rubriken-->
+
+  <div class="Rubrik">Test</div>
+
+
+      <!--All text ligger inom den här ramen-->
+
+  <div class="frame">
+  
+               <!--Texten-->
+   <div class="Text">
+<FORM NAME="kul">
+<p>Match       1.    X.    2.</p>
+<p>1.        
+<input type="radio" name="Match1" value="1.">
+<input type="radio" name="Match1" value="X.">
+<input type="radio" name="Match1" value="test2." tabindex="1" checked>
+ </p>
+<p>
+<input type="text" name="test" value="" size="10">
+ </p>
+<input type="password" name="Pass" value="" size="10">
+<p>
+<input type="checkbox" name="Knap" value="Hälsa" onclick="prompt('Hej på dig!')">
+</p>
+<p>&nbsp;
+<input type="button" name="Knap2" value="Hej då" onclick="box()" >
+</p>
+
+
+
+<marquee scrollamount="7">Tjena!!! Du har kommit till NV1b:s egna hemmsida här 
+får tyvär bara NV1b:are vara....</marquee>
+
+<center>
+         <!-- En Snygg Knapp-->
+<applet code="fphover.class" codebase="./" width="120" height="24">
+  <param name="text" value="Logga In">
+  <param name="color" value="#000080">
+  <param name="hovercolor" value="#0000FF">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="effect" value="glow">
+</applet>
+
+
+
+
+</form>
+</div>
+</div>
+</div>
+
+
+<!--
+JAVA GÖR SÅ ATT DEN HÄNGER SIG
+
+for (var k = 0; k < 10; ++k) {
+ for (var i = 0; i < 20; ++i) {
+  imStr = "<DIV ID=elBGim" 
+  + " STYLE='position:absolute;left:140;top:i'>"
+  + "<IMG NAME='imBG' BORDER=0 SRC=" + imSRC;
+  imStr += "></DIV>";
+  document.write(imStr);
+ }
+}
+
+-->
+
+
+
+</body>
+
+</html>

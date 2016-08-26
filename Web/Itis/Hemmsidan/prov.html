@@ -1,0 +1,40 @@
+<HTML>
+
+<HEAD>
+<TITLE>ex6 - dhmtl</TITLE>
+<STYLE TYPE="text/css">
+<!--
+
+.bild {position: absolute; top: 10px; left: 10px; width: 100px;}
+
+#popup {position: relative; top: -125px; left: 115px; width: 30px; visibility: hidden;  }
+-->
+
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function visa_text(id)  
+{   
+document.all[id].style.visibility="visible";
+}
+
+function bort_text(id)  
+{  
+document.all[id].style.visibility="hidden"; 
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY>
+
+<DIV CLASS=bild onMouseOver="visa_text('popup')" onMouseOut="bort_text('popup')">
+<IMG SRC="hej.gif">
+<DIV ID=popup><img src="hej.gif">
+</DIV> 
+</DIV>
+
+
+</BODY>
+</HTML>
